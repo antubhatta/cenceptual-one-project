@@ -38,6 +38,9 @@
     background-image: url(".../images/background.png"),
     linear-gradient(45deg,rgb(8,8,8),#000);
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .title{
@@ -55,7 +58,74 @@
     color: white;
     border: none;
     cursor: pointer;
+    margin-top: 20px;
 }
 .btn:hover{
     color: blue;
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 25px;
+    margin-top: 20px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.self{
+    color:grey;
+    font-size:24px;
+    
+    
+}
+.para{
+    font-size: 18px;
+   
+    
+
+}
+.about-photo{
+    margin-top: 20px;
+}
+
+
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    
+}
+.icon{
+    width: 70px;
+}
+.bn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-desc{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.box-line{
+    background-image: url(".../images/background.png"),
+    linear-gradient(45deg,rgb(92, 91, 91),#000);
+}
+.box{
+    margin-bottom: 20px;
+}
+
+

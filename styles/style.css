@@ -127,5 +127,47 @@
 .box{
     margin-bottom: 20px;
 }
+.footer-container{
+    background-color: black;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   padding-top: 120px;
+   padding-bottom: 80px;
+}
+.footer-title{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.footer-desc{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.add{
+    color: white;
+    font-size: 1rem;
+}
+.first-footer img{
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+.copyright{
+   
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+.black{
+    background-color: #000;
+}
+.desc{
+    text-align: center;
+    
+}
 
 
